@@ -1,3 +1,5 @@
+gist: https://gist.github.com/shindi-renuo/ebd411a5f4268ca6f8736629bfd88d86
+
 # create-pr
 
 A simple TypeScript CLI Tool that opens the browser to create a PR.
