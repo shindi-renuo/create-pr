@@ -8,7 +8,7 @@ First, clone the repo into your home folder and `cd` into it.
 
 Then, run `bun add -g open`, or `pnpm add -g open` depending on your stack.
 
-Then, create a file called `create-pr` in `/usr/bin` and paste the following contents into it:
+Then, create a file called `cpr` in `/usr/bin` and paste the following contents into it:
 
 ```bash
 #!/bin/bash
@@ -16,6 +16,6 @@ Then, create a file called `create-pr` in `/usr/bin` and paste the following con
 bun run ~/create-pr/index.ts # I'm using bun here, but you can use anything you want :D
 ```
 
-Then lastly make it executable using `chmod +x /usr/bin/create-pr`.
+Then lastly make it executable using `chmod +x /usr/bin/cpr`.
 
 Then start using it ;)
