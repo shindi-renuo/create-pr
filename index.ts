@@ -44,7 +44,7 @@ function convertToHttps(url: string): string {
 }
 
 function openDraftPR(repoUrl: string, branch: string) {
-  const prUrl = `${repoUrl}/compare/main...${branch}?expand=1&title=${encodeURIComponent(branch)}&draft=true`;
+  const prUrl = `${repoUrl}/compare/develop...${branch}?expand=1&title=${encodeURIComponent(branch)}&draft=true`;
   open(prUrl).catch(() => {
     console.error('Error: Unable to open the browser.');
     process.exit(1);
